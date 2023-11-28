@@ -1,0 +1,90 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #007bff, #00ff00);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.generator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  margin: 0 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/** 
+html, body: Sayfanın kök elementleri olan html ve body için belirli stil özelliklerini tanımlar.
+
+height: 100%;: Sayfanın tamamının yüksekliğini tarayıcı penceresinin yüksekliği kadar genişletir.
+margin: 0;: Varsayılan kenar boşluklarını sıfırlar.
+body: Sayfanın ana içeriği için stil tanımları sağlar.
+
+display: flex; justify-content: center; align-items: center;: İçeriği dikey ve yatayda ortalar.
+background: linear-gradient(135deg, #007bff, #00ff00);: Arka plan rengini mavi ve yeşil tonlarında bir gradient olarak belirler.
+font-family: Arial, sans-serif;: Metin fontunu ayarlar.
+text-align: center;: Metin içeriğini merkezler.
+color: #333;: Metin rengini belirler.
+.generator: Rastgele sayı ve harf oluşturucu bileşeninin stilini tanımlar.
+
+background-color: #fff;: Arka plan rengini beyaza ayarlar.
+padding: 20px;: İçerik ile kenar arasında 20 piksel boşluk bırakır.
+border-radius: 10px;: Kenarları yuvarlar, köşeleri yumuşatır.
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);: Hafif bir gölgelendirme ekler.
+.input-group: Giriş alanlarının gruplandığı alandaki stil tanımlarını belirtir.
+
+display: flex; justify-content: center; align-items: center;: İçeriği dikey ve yatayda ortalar.
+margin-bottom: 15px;: Alt tarafta 15 piksel boşluk bırakır.
+input[type="number"]: Sayı girişi için stil tanımlarını belirler.
+
+margin: 0 5px; padding: 8px; font-size: 16px;: Kenar boşlukları, iç dolguları ve metin boyutunu belirler.
+button: Butonların stil özelliklerini tanımlar.
+
+margin: 5px; padding: 8px 20px; font-size: 16px;: Kenar boşlukları, iç dolguları ve metin boyutunu belirler.
+cursor: pointer;: Fare imlecinin buton üzerine geldiğinde el imleci şekline dönüşmesini sağlar.
+.result: Sonuç alanının stilini belirler.
+
+margin-top: 20px; font-size: 20px;: Üst tarafta 20 piksel boşluk bırakır ve metin boyutunu belirler.
+Bu stil tanımları, belirli bileşenlerin görünümünü ve düzenini belirler, böylece sayfanın daha hoş ve düzenli bir şekilde gösterilmesini sağlar.
+*/
